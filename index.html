@@ -1,0 +1,35 @@
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<meta name="description" content="Groceries...feed me groceries...">
+		<link rel="stylesheet" href="css/stylesheet.css" type="text/css" charset="utf-8">
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		<title>Shopping List App</title>
+	</head>
+	<body>
+		<div id="container">
+			<div id="heading">
+	     		<h1>Super Awesome Shopping List App, Great Job!</h1>
+	     		<hr>
+
+	     		<h2>Type Items into the Text Box Below and Press 'Enter' to add them to your list</h2>
+	     		<h2>Click the Check Mark to Cross Them Off, and the X Mark to Delete Them</h2>
+	     		<h2 id="instructions">Press 'Clear All' to Scrap the Entire List and Start Over Fresh!</h2>
+     		</div>
+
+     		<button name="startover" id="startover" class="button">CLEAR ALL</button>
+
+    		<div id="outer-area">
+    			
+        		<input id="add-items" type="text" name="add-items" autocomplete="off" placeholder="Enter Your Item Here, Then Press Enter">
+        		
+        		<div id="list-area"></div>
+
+    		</div>
+
+    		<div id="footing"></div>
+
+			<script type="text/javascript" src="js/app.js"></script>
+		</div>
+	</body>
+</html>
