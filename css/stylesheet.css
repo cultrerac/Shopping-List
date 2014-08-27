@@ -10,7 +10,7 @@
 body{
 	background-color: #3498db;
 	color: #e74c3c;
-	font-family: sans serif, Arial;
+	font-family: 'Roboto Condensed', sans-serif;
 	text-align: center;
 }
 
@@ -39,14 +39,14 @@ p{
 
 h1{
 	font-size: 24pt;
-	font-family: Georgia, serif;
+	font-family: 'Bree Serif', serif;
 	text-transform: uppercase;
 	color: white;
 }
 
 h2{
 	font-size: 12pt;
-	font-family: sans-serif;
+	font-family: 'Roboto Condensed', sans-serif;
 	text-transform: uppercase;
 	background-color: transparent;
 	color: white;
@@ -78,6 +78,7 @@ hr{
 	color: #fff;
     display: inline-block;
     font-size: 12pt;
+    font-family: 'Roboto Condensed', sans-serif;
     height: 30px;
     line-height: 24pt;
     margin: 15px auto;
@@ -104,6 +105,7 @@ button {
 	cursor: pointer;
     display: inline-block;
     font-size: 12pt;
+    font-family: 'Roboto Condensed', sans-serif;
     height: 30px;
     line-height: 24pt;
     margin: 15px auto;
