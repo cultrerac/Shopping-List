@@ -20,6 +20,7 @@ p{
     color: #fff;
     display: table;
     font-size: 12pt;
+    font-family: 'Roboto Condensed', sans-serif;
     height: 30px;
     line-height: 24pt;
     margin: 15px auto;
@@ -28,6 +29,7 @@ p{
 
 #container{
 	background-color: #3498db;
+	font-family: 'Roboto Condensed', sans-serif;
 	margin-left: auto;
 	margin-right: auto;
 	width: 100%;
